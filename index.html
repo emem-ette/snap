@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alata&family=Barlow:ital,wght@1,600&family=Comforter&family=Commissioner:wght@400;500;600;700&family=Epilogue:ital,wght@0,500;0,700;1,500;1,700&family=Fraunces:wght@900&family=IBM+Plex+Sans+Thai+Looped&family=Inria+Sans:wght@700&family=Josefin+Sans:ital,wght@0,300;1,300&family=Lato:wght@300;400;700&family=Luckiest+Guy&family=Montserrat:ital,wght@0,300;0,400;0,700;1,700&family=Open+Sans:ital@0;1&family=Overpass:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,600;0,700;1,600&display=swap"
+        rel="stylesheet">
+    <title>dropdown-navigation-main</title>
+</head>
+
+<body>
+    <div id="all-container">
+        <div id="top-header">
+            <h2>snap</h2>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="dropdown">
+                    <a href="#">Features<span class="dropbtn"onclick="myFunction()">
+                            <i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#"><img src="images/icon-todo.svg"><span style="padding-left: 10px; font-size: 16px;">Todo List</span></a>
+                        <a href="#"><img src="images/icon-calendar.svg"><span style="padding-left: 10px; font-size: 16px;">Calender</span></a>
+                        <a href="#"><img src="images/icon-reminders.svg"><span style="padding-left: 10px; font-size: 16px;">Reminders</span></a>
+                        <a href="#"><img src="images/icon-planning.svg"><span style="padding-left: 10px; font-size: 16px;">Planning</span></a>
+                        
+                      </div>
+                </div>
+                    <a href="#">Company</a>
+                <a href="#">Careers</a>
+                <a href="#">About</a>
+            </div>
+            <button class="openbtn" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        </div>
+        <div id="img-container">
+            <img src="images/image-hero-mobile.png">
+        </div>
+        <div id="container-content">
+            <h3>Make remote work</h3>
+            <p>Get your team in sync,no matter your location.Streamline processes,create team rituals,and watch
+                productivity soar.</p>
+            <div class="btn">
+                <button><a href="#">Learn more</a></button>
+            </div>
+            <div class="list">
+                <img src="images/client-databiz.svg" alt="databiz logo" style="width: 20%;">
+                <img src="images/client-audiophile.svg" alt="audiophile logo" style="width: 20%;">
+                <img src="images/client-meet.svg" alt="meet logo"style="width: 20%;">
+                <img src="images/client-maker.svg" alt="maker logo"style="width: 20%;">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+ 
